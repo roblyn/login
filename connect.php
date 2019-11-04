@@ -1,7 +1,7 @@
 <?php 
  $server ='localhost';
  $username='root';
- $password='';
+ $password='password';
  $db='php';
 
  $conn = new mysqli($server,$username,$password);
@@ -13,7 +13,7 @@
  }else {
         echo 'Connected';
  }
-
+ 
 
 
 ?>
