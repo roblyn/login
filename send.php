@@ -11,7 +11,7 @@
     $count = mysqli_num_rows($result) ;
     if($count > 0){
         echo '<script>';
-      
+        echo 'alert("Welcome!!");';
     echo '</script>';
     }else{
         echo '<script>';
