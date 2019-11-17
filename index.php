@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="send.php" method="post">
+    <form method="POST" action="send.php">
 
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="psw" placeholder="Password" >
